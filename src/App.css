@@ -505,7 +505,7 @@ footer>h1 {
 
         display: flex;
         gap: 20px;
-        padding-left: 180px;
+        padding-left: 170px;
         padding-right: 10px;
         overflow-x: scroll;
         scroll-behavior: smooth;
@@ -523,7 +523,7 @@ footer>h1 {
 
     .product3>h1 {
         padding-top: 10px;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .product4>h1 {
