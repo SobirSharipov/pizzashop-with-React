@@ -39,10 +39,9 @@
 .Sum{
     display: flex;
     justify-content: space-around;
+    margin: 10px;
 }
-.Sum > div{
-    margin-top: 20px;
-}
+
 .Sum > div > button{
     width: 25px;
     height: 25px;

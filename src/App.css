@@ -285,7 +285,8 @@ header>div>div>button {
     width: 200px;
     margin-left: -40px;
 }
-.infoProduct{
+
+.infoProduct {
     width: 35%;
     background-color: #1b1309;
     padding: 20px;
@@ -294,64 +295,75 @@ header>div>div>button {
     height: 550px;
     margin-top: 50px;
 }
-.infoProduct>p{
+
+.infoProduct>p {
     color: gray;
 }
-.img10{
+
+.img10 {
     width: 400px;
 }
-.ing5{
+
+.ing5 {
     position: absolute;
     z-index: 2;
     margin-left: 500px;
     margin-top: 100px;
 }
-.img31{
+
+.img31 {
     position: absolute;
     z-index: 5;
     margin-top: 400px;
     left: 550px;
 }
-.img41{
+
+.img41 {
     position: absolute;
     z-index: 3;
     left: 1050px;
     margin-top: -100px;
     width: 250px;
 }
-.box111{
+
+.box111 {
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
 }
-footer{
+
+footer {
     display: flex;
     gap: 100px;
     justify-content: center;
- 
+
     background: linear-gradient(245.71deg, #170A00 4.96%, #170600 33.7%, #0F0700 68.41%, #170A00 96.42%);
 
 }
-footer>h1{
-   color: #FF6432;
-   font-size: 40px;
+
+footer>h1 {
+    color: #FF6432;
+    font-size: 40px;
 }
-.foot{
+
+.foot {
     display: flex;
-  justify-content: space-around;
-  gap: 100px;
+    justify-content: space-around;
+    gap: 100px;
 }
-.foot>div>p{
+
+.foot>div>p {
     color: gray;
 }
-.miniFooter{
+
+.miniFooter {
     display: flex;
     justify-content: space-around;
     background: linear-gradient(245.71deg, #170A00 4.96%, #170600 33.7%, #0F0700 68.41%, #170A00 96.42%);
 
 }
 
-@media (max-width:500px) {
+@media (max-width:510px) {
     * {
         margin: 0px;
 
@@ -378,10 +390,12 @@ footer>h1{
         flex-wrap: wrap-reverse;
 
     }
+
     .box111 {
         flex-wrap: wrap-reverse;
 
     }
+
 
     .img5,
     .img6 {
@@ -395,7 +409,7 @@ footer>h1{
 
     .img3 {
         width: 40%;
-        left: -30px;
+        left: 0px;
         margin-top: 380px;
     }
 
@@ -414,12 +428,13 @@ footer>h1{
     }
 
     .divbtn1 {
-        width: 100%;
+        width: 90%;
+        margin: auto;
 
     }
 
     .btn1 {
-        width: 200px;
+        width: 160px;
     }
 
     .Allbtn1 {
@@ -455,12 +470,14 @@ footer>h1{
     }
 
     .miniProduct {
-            display: flex;
-            gap: 40px;
+        display: flex;
+        gap: 20px;
         padding-left: 20px;
         padding-right: 20px;
         overflow-x: scroll;
         scroll-behavior: smooth;
+        width: 85%;
+
     }
 
     .miniProduct {
@@ -472,10 +489,21 @@ footer>h1{
     .miniProduct::-webkit-scrollbar {
         display: none;
     }
+
+    .product1>h1 {
+        margin: 20px;
+        font-size: 20px;
+    }
+    .product2>h1 {
+        margin: 20px;
+        font-size: 20px;
+    }
+
     .maxProduct {
-            display: flex;
-            gap: 40px;
-        padding-left: 300px;
+
+        display: flex;
+        gap: 20px;
+        padding-left: 180px;
         padding-right: 10px;
         overflow-x: scroll;
         scroll-behavior: smooth;
@@ -490,60 +518,84 @@ footer>h1{
     .maxProduct::-webkit-scrollbar {
         display: none;
     }
-    .text1{
+
+    .product3>h1 {
+        padding-top: 10px;
+        font-size: 25px;
+    }
+
+    .product4>h1 {
+        padding-top: 10px;
+        font-size: 25px;
+    }
+
+    .text1 {
         font-size: 20px;
         text-align: center;
     }
-    .text1>p{
+
+    .text1>p {
         font-size: 15px;
         margin-top: 20px;
     }
-    .pr3>h1{
+
+    .pr3>h1 {
         padding-top: 10px;
     }
-    .pr5>h1{
+
+    .pr5>h1 {
         padding-top: 10px;
     }
-    .infoProduct{
+
+    .infoProduct {
         width: 80%;
     }
-    .img10{
+
+    .img10 {
         width: 300px;
     }
-    .ing5{
+
+    .ing5 {
         display: none;
     }
-    .img31{
+
+    .img31 {
         position: absolute;
         z-index: 3;
         width: 150px;
-        left: -40px;
+        left: 0px;
         margin-top: 220px;
     }
-    .img41{
+
+    .img41 {
         position: absolute;
         z-index: 4;
-        left: 230px;
+        left: 180px;
         width: 150px;
         margin-top: -60px;
     }
-    footer{
+
+    footer {
         display: block;
         padding: 20px;
         margin-top: 20px;
     }
-    footer>h1{
+
+    footer>h1 {
         margin-bottom: 30px;
     }
-    .foot{
+
+    .foot {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 40px;
     }
-    .foot>div>h2{
+
+    .foot>div>h2 {
         margin-bottom: 20px;
     }
-    .miniFooter{
+
+    .miniFooter {
         display: flex;
         justify-content: space-between;
         padding: 20px;
