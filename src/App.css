@@ -428,13 +428,14 @@ footer>h1 {
     }
 
     .divbtn1 {
-        width: 90%;
+        width: 80%;
         margin: auto;
+         font-size: 15px;
 
     }
 
     .btn1 {
-        width: 160px;
+        width: 140px;
     }
 
     .Allbtn1 {
@@ -442,6 +443,7 @@ footer>h1 {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         margin-top: 20px;
+        padding: 20px;
     }
 
     .Allbtn1>button {
@@ -451,7 +453,7 @@ footer>h1 {
 
     .AllCart {
         display: block;
-        margin-left: 20px;
+        margin-left: 35px;
     }
 
     .Fon {
